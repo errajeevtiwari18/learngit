@@ -1,1 +1,7 @@
-apply plugin: 'c'
+apply plugin : 'c'
+  
+ +model {
+ +        components {
+ +                hello(NativeExecutableSpec)
+ +        }
+ +}
